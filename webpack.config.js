@@ -52,6 +52,9 @@ const webpackConfig = {
             }
         }
     },
+    devServer: {
+        contentBase: "./dist"
+    },
 
     mode: "production"
 };
