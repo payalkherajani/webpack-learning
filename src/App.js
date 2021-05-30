@@ -2,7 +2,7 @@ import './App.css'
 import _ from "lodash";
 const App = ({ name }) => {
     return `
-    <h2> ${_.join(["Welcome,", name], " ")} </h2>
+    <h2> ${_.join(["Welcome,", name], " ")} !</h2>
     <p> Build apps with plain JS but with modern tooling  </p>
     `;
 };
